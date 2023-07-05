@@ -1,0 +1,434 @@
+@font-face {
+    font-family: montserrat;
+    src: url("../font/Montserrat-Medium.otf");
+ }
+
+body{
+    font-family: montserrat;
+    font-size: 1em;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.imgIcones {
+    height: 40px;
+    padding: 0 10px;
+}
+
+.textBranco {
+    color: white;
+}
+
+.font-6 {
+    font-size: 0.6em;
+    font-weight: 500;
+}
+
+.font-7 {
+    font-size: 0.7em;
+}
+
+.font-8 {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.font-8-bold {
+    font-size: 0.8em;
+}
+
+
+.font-10-bold {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.n {
+    padding-top: 3px;
+}
+
+.txtRoxo {
+    color: #5c00b0;
+    font-size: 0.9em;
+    font-weight: bold;
+
+}
+
+.txtRoxo2 {
+    color: #5c00b0;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.h2{
+    font-size: 1.3em;
+    line-height: 1em;
+}
+
+.btnComprar {
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(233, 78, 22);
+    color: white;
+    padding: 4% 15%;
+    width: 100%;
+    margin-top: 0.6em;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+
+
+.btnPromo {
+    color: white;
+    background-color: #00f5ff;
+    border: 0;
+    border-radius: 5px;
+    padding: 5% 15%;
+    margin-top: 0.6em;
+    margin-bottom: 2.5em;
+}
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+.mt-05 {
+    margin-top: 0.5em;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #5c00b0;
+    padding: 15px;
+    flex-direction: row;
+    align-items: inherit;
+}
+
+.headerHome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lupa {
+    width: 25px;
+    position: relative;
+    z-index: 1;
+    left: -30px;
+    cursor: pointer;
+}
+
+.search {
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+}
+
+.icones {
+    display: flex;
+    padding-right: 30px;
+}
+
+.iconesPerfil {
+    display: flex;
+    align-items: center;
+}
+
+.iconesCarrinho {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* MAIN */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.mainCategories {
+    padding: 2em;
+}
+
+.banner {
+    width: 100%;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgOptions{
+    width: 40px;
+    padding-right: 10px;
+}
+
+.flexOptions{
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.imgCard {
+    width: 30%;
+}
+
+
+/* PRODUTOS */
+
+.imgCoracao {
+    height: 15px;
+
+}
+
+.precoCor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.produtos .lista .card {
+    padding: 0 1em;
+
+}
+
+.produtos .lista .card .imgProduto {
+    width: 100%;
+}
+
+.imgProduto {
+    height: 270px;
+}
+
+
+
+.produtos {
+    margin-top: 1em;
+    padding: 2em;
+    background-color: rgb(243, 243, 243);
+    border-radius: 0.5em;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.maisProdutos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnMais {
+    color: white;
+    background-color: #5c00b0;
+    padding: 2% 10%;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 0.6em;
+    margin-bottom: 1.5em;
+    cursor: pointer;
+}
+
+/* MENU */
+
+nav {
+    padding: 20px 10px 0 30px;
+
+    background-color: #ededed;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+nav li {
+    list-style: none;
+    list-style-type: none;
+    line-height: 0.7em;
+}
+
+nav li:first-child a {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+nav li:last-child a {
+    color: orangered;
+    text-decoration: underline;
+}
+nav li:only-child a {
+    color: orangered;
+    text-decoration: underline;
+    font-size: 0.70em;
+    font-weight: 500;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.70em;
+    font-weight: 500;
+}
+
+/*  FOOTER  */
+
+
+/* CONTAINER INFORMAÇÕES */
+
+.container-info {
+    background-color: orangered;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 60px 120px;
+}
+
+.logo-footer {
+    height: 20vh;
+    width: auto;
+}
+
+.deptos {
+    display: flex;
+    flex-direction: column;
+}
+
+.deptos span, .help span {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.deptos ul, .help ul {
+    padding-inline-start: 0px;
+    margin-block-end: 0;
+}
+
+.deptos ul li, .help ul li{
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+.deptos a, .help a {
+    font-weight: 100;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+.deptos a:hover, .help a:hover {
+    font-size: 1em;
+    color: black;
+}
+
+
+/* DIV CONTATOS */
+.contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 167px;
+
+    gap: 20px;
+}
+
+.tel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tel span {
+    font-size: 1.2em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.p-tel {
+    font-size: 1.2em;
+    margin: 7px 0;
+}
+
+.p-em {
+    margin: 0;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.redes img {
+    width: 3vw;
+}
+
+
+/* CONTAINER INFORMAÇÕES FINAIS E ENDEREÇOS */
+.container-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 70px;
+
+    background-color: black;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+    
+    color: white;
+}
+
+.img-footer-end {
+    width: 20vw;
+}
