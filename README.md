@@ -15,5 +15,5 @@ Atividade realizada para o curso de Desenvolvimento FullStack da Fullture School
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kessiamilena.github.io/PetStore/)
+[![portfolio](https://img.shields.io/badge/my_page-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kessiamilena.github.io/PetStore/)
 
